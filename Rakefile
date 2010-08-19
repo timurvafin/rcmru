@@ -5,12 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rcmru"
-    gem.summary = %Q{TODO: Parce rcmru.ru info}
+    gem.summary = %Q{Parse rcmru.ru info}
     gem.email = "timur.vafin@flatsoft.com"
     gem.homepage = "http://github.com/timurvafin/rcmru"
     gem.authors = ["Timur Vafin"]
-    gem.add_development_dependency "cucumber", ">= 0"
-    gem.add_development_dependency "gherkin", ">= 0"
+    gem.add_dependency('httparty', '>= 0.6.1')
+
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
