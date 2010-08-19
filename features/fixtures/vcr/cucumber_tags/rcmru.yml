@@ -1,0 +1,68 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://www.raiffeisen-capital.ru:80/flash/getparams.aspx?BeginDate=18.08.2010&EndDate=18.08.2010&fund_id=11376
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - www.raiffeisen-capital.ru
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      x-powered-by: 
+      - ASP.NET
+      x-aspnet-version: 
+      - 2.0.50727
+      p3p: 
+      - CP="CAO PSA OUR"
+      expires: 
+      - "-1"
+      connection: 
+      - close
+      via: 
+      - 1.0 proxy.toa:3128 (squid/2.6.STABLE21)
+      content-type: 
+      - text/xml; charset=utf-8
+      x-cache-lookup: 
+      - MISS from proxy.toa:3128
+      x-cache: 
+      - MISS from proxy.toa
+      date: 
+      - Thu, 19 Aug 2010 11:01:08 GMT
+      server: 
+      - Microsoft-IIS/7.5
+      content-length: 
+      - "225"
+      publisher: 
+      - Quantum Art's QP7.Framework 7.7 8/19/2010 3:01:09 PM
+      cache-control: 
+      - no-cache
+      pragma: 
+      - no-cache
+    body: |
+      
+      <datas>
+      	<data type="date">
+      		<content>18.08.2010
+      </content>
+      	</data>
+      	<data type="scha">
+      		<content>910386179.06
+      </content>
+      	</data>
+      	<data type="pai">
+      		<content>
+      7673.23
+      
+      </content>
+      	</data>
+      </datas>
+      
+      
+
+    http_version: "1.0"

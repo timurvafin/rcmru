@@ -8,4 +8,5 @@ group :development do
   gem 'rspec'
   gem 'cucumber'
   gem 'gherkin'
+  gem 'ruby-debug'
 end

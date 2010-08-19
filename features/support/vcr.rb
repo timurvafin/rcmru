@@ -6,6 +6,6 @@ VCR.config do |c|
 end
 
 VCR.cucumber_tags do |t|
-  t.tags '@rcmru', :record => :none
+  t.tags '@rcmru', :record => :new_episodes
 end
 
