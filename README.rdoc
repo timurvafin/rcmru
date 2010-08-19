@@ -1,6 +1,6 @@
 = rcmru
 
-Description goes here.
+Rcmru::Index.new(11376).pai # => Latest index for http://www.raiffeisen-capital.ru/fonds/unitinvestmenttrust/telecom/graphics/
 
 == Note on Patches/Pull Requests
  
