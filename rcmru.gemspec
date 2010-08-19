@@ -13,8 +13,7 @@ Gem::Specification.new do |s|
   s.email = %q{timur.vafin@flatsoft.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc",
-     "TODO"
+     "README.rdoc"
   ]
   s.files = [
     ".document",
@@ -30,7 +29,8 @@ Gem::Specification.new do |s|
      "features/step_definitions/rcmru_steps.rb",
      "features/support/env.rb",
      "features/support/vcr.rb",
-     "lib/rcmru.rb"
+     "lib/rcmru.rb",
+     "rcmru.gemspec"
   ]
   s.homepage = %q{http://github.com/timurvafin/rcmru}
   s.rdoc_options = ["--charset=UTF-8"]
